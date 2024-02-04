@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TermsAndConditions">
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="184dp"
+        android:layout_height="86dp"
+        android:text="@string/terms_and_conditions"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.29"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="232dp"
+        android:layout_height="152dp"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.368"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.295"
+        tools:text="We reserve the right at any time, without liability for doing so, to modify or discontinue, temporarily or permanently, any of the content, functions or services we offer on the Site (or any part of them) with or without notice. This includes removing information transmitted by you to us." />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="223dp"
+        android:layout_height="167dp"
+        android:text="@string/we_reserve_the_right_at_any_time_without_liability_for_doing_so_to_modify_or_discontinue_temporarily_or_permanently_any_of_the_content_functions_or_services_we_offer_on_the_site_or_any_part_of_them_with_or_without_notice_this_includes_removing_information_transmitted_by_you_to_us"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.351"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.585" />
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="212dp"
+        android:layout_height="130dp"
+        android:text="@string/we_have_taken_every_care_in_the_preparation_of_the_site_however_as_certain_technical_matters_may_be_beyond_our_control_we_cannot_guarantee_that_you_will_have_uninterrupted_or_error_free_access_to_the_site_at_all_times"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.331"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.826" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FF9800"
+        android:backgroundTint="#6A0D0D"
+        android:onClick="onClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.214"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.039"
+        tools:text="Previous" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doctor3page">
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="265dp"
+        android:layout_height="166dp"
+        android:text="@string/_3_lorem_ipsum_dolor_sit_amet_consectetur_adipiscing_elit_curabitur_aliquam_placerat_justo_nec_rhoncus_nibh_gravida_nec_donec_hendrerit_condimentum_tincidunt_sed_porttitor_pretium_ligula_eu_mattis_nisi_blandit_eu_quisque_consectetur_erat_malesuada_aliquet_dictum_arcu_ligula_molestie_diam_tempus_sagittis_lectus_mauris_non_ex"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.328"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.345" />
+
+    <Button
+        android:id="@+id/doc3back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onClick"
+        android:text="@string/back3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.424"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.695" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/doctors"
+        android:title="Doctors">
+
+    </item>
+    <item
+        android:id="@+id/services"
+        android:title="Our Services">
+
+    </item>
+    <item
+        android:id="@+id/contactus"
+        android:title="Contact Us">
+
+    </item>
+
+    <item
+        android:id="@+id/aboutus"
+        android:title="About Us">
+
+    </item>
+    <item
+        android:id="@+id/appointment"
+        android:title="Make an Appointment">
+
+    </item>
+
+</menu>

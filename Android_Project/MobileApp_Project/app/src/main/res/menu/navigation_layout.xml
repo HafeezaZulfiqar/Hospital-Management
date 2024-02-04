@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/account"
+        android:title="Doctors" />
+
+    <item
+        android:id="@+id/nav_settings"
+        android:title="Services" />
+
+
+    <item
+        android:id="@+id/nav_logout"
+        android:title="Contant us" />
+
+    <item
+        android:id="@+id/nav_about"
+        android:title="About us" />
+
+
+</menu>
